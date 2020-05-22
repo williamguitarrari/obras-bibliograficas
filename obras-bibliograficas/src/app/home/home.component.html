@@ -1,24 +1,3 @@
-<!-- Resources -->
-<!-- <h2>Projeto Obras Bibliográficas</h2>
-<p>Entre com o nome do autor</p>
-<br>
-<input type="text" [formControl]="name">
-<p *ngIf="true">Total de nomes fornecidos: {{totalNames}}</p>
-<br>
-<button (click)="replaceName(name)">Tranformar</button>
-
-{{nameReplaced}} -->
-
-<!-- <h2>Projeto Obras Bibliográficas</h2>
-<p>Entre com o nome do autor</p>
-<br>
-<input type="text" (blur)="replaceName($event.target.value)">
-<p *ngIf="true">Total de nomes fornecidos: {{totalNames}}</p>
-<br>
-<button>Tranformar</button>
-
-{{nameReplaced}} -->
-
 <div class="card text-center">
   <div class="card-header">
     Projeto Obras Bibliográficas
@@ -39,21 +18,3 @@
     </form>
   </div>
 </div>
-
-<!-- <div class="card text-center">
-  <div class="card-header">
-    Projeto Obras Bibliográficas
-  </div>
-  <div class="card-body">
-    <form (ngSubmit)="replaceName(this.name)" [formGroup]="form">
-      <div class="form-group">
-        <input type="name" class="form-control" formControlName="name" placeholder="Nome do autor">
-        <small *ngIf="false" class="form-text text-muted">Total de nomes fornecidos: {{totalNames}}</small>
-      </div>
-      <div class="form-group">
-        <input type="text" class="form-control" value="{nameReplaced}">
-      </div>
-      <button type="submit" class="btn btn-primary">Formatar</button>
-    </form>
-  </div>
-</div> -->
